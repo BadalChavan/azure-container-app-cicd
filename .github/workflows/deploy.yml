@@ -39,6 +39,6 @@ jobs:
     - name: Deploy to Container Apps
       run: |
         az containerapp update \
-          --name reyacontapp \
+          --name reyacontapp4 \
           --resource-group 4pm-rg \
           --image $REGISTRY/$IMAGE_NAME:${{ github.sha }}
